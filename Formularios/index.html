@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <div style="width: 600px; margin: 0px auto;">
+        <fieldset>
+            <legend>Mi Formulario</legend>
+        <form action="registro.php"; method="POST">
+            <table>
+                <tr>
+                    <td><label for="Username">Nombre de usuario</label></td>
+                    <td><input type="text" name="Username" id="Username" placeholder="Usuario" autofocus maxlength="100" pattern="[A-Z]{6}[0-9]{4}"></td>
+                    <!-- value="Escriba aquí" readonly="Escriba aquí" Otras formas de poder escribirlo. A parte, for, name, e id tienen que ser iguales-->
+                </tr>
+                <tr>
+                    <td><label for="Password">Contraseña</label></td>
+                    <td><input type="password" name="Password" id="Password" placeholder="Contraseña" autofocus maxlength="100"></td>
+                </tr>
+                <tr>
+                    <td><label for="fecha">Fecha de nacimiento</label></td>
+                    <td><input type="date" name="fecha" id="fecha"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Dirección de correo</label></td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><Label for="Pregunta">¿Mayor de 18?</Label></td>
+                    <td><input type="radio" name="Pregunta" id="Pregunta" value="Yes" checked><span>Yes</span>
+                        <input type="radio" name="Pregunta" id="Pregunta" value="No"><span>No</span></td>
+                </tr>
+                <tr>
+                    <td><label for="edad">Edad</label></td>
+                    <td><input type="number" name="edad" id="edad" value="edad" max="99"></td>
+                </tr>
+                <tr>
+                    <td><label for="aficiones">Aficiones</label></td>
+                    <td><input type="checkbox" name="deportes" id="deportes" value="deportes"><span>Deporte</span>
+                        <input type="checkbox" name="cine" id="cine" value="cine"><span>Cine</span>
+                        <input type="checkbox" name="música" id="música" value="música"><span>Música</span></td>
+                </tr>
+                <tr>
+                    <td><label for="provincias">Provincias</label></td>
+                    <td><select name="provincias" id="provincias">
+                        <optgroup label="Andalucía"></optgroup>
+                        <option value="0">-Seleccione Provincia-</option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Huelva">Huelva</option>
+                        <option value="Cádiz">Cádiz</option>
+                        <option value="Córdona">Córdoba</option>
+                        <option value="Granada-">Granada</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="fichero">Imagen</label></td>
+                    <td><input type="file" name="fichero" id="fichero"></td>
+                </tr>
+                <tr>
+                    <td><label for="Mensaje"></label></td>
+                    <td><textarea name="mensaje" id="mensaje" cols="50" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="web">Web</label></td>
+                    <td><input type="url" name="web" id="web" required></td>
+                </tr>
+                <tr>
+                    <td><label for="teléfono">Número de teléfono</label></td>
+                    <td><input type="tel" name="teléfono" id="teléfono"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
+            </table>    
+        </form>
+        </fieldset>
+    </div>
+</body>
+</html>
