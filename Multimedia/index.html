@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+</head>
+<body>
+    <h1>Vídeo</h1>
+    <video width="400" height="300" controls autoplay loop preload="auto">
+        <source src="archivos/capture-1.wbm"/>
+        <source src="archivos/capture-1.mp4"/>
+        <source src="archivos/capture-1.ogv"/>
+        <p>Tu navegador no soporta el formato del archivo</p>
+    </video>
+
+    <h1>Audio</h1>
+    <audio controls autoplay loop preload="auto">
+        <source src="archivos/Sympathy.mp3" type="audio/mpeg"> 
+        <source src="archivos/Sympathy.m4a" type="audio/mpeg">
+        <source src="archivos/Sympathy.wav" type="audio/mpeg">
+    </audio>
+
+    <h1>Iframe</h1>
+    <iframe src="https://player.twitch.tv/?channel=briiendirecto&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101459.59291829055!2d-6.025098303430783!3d37.37535009888523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c11014be6291%3A0x34f018621cfe5648!2sSevilla!5e0!3m2!1ses!2ses!4v1610717300531!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    <h1>OBJECT</h1>
+    <object data="capture-2.swf" type="application/x-shockwave-flash">
+        <param name="movie" value="capture-2.swf"/>
+        <param name="quality" value="high"/>
+        <param name="wmode" value="trasparent">
+    </object>
+    <iframe src="datos.html" style="width: 400px; height: 300px;"></iframe>
+    <object data="datos.html" type="text/html" style="width: 400px; height: 300px;"></object>
+</body>
+</html>
