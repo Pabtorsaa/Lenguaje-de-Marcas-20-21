@@ -1,0 +1,106 @@
+a, p {
+    font-size: 25px;
+}
+
+div a {
+    color: crimson;
+}
+
+div#capa1 {
+    background: lightblue;
+}
+
+.letraGrande  {
+    font-size: xx-large;
+}
+
+.nosubrayado {
+    text-decoration: none;
+}
+
+div#capa1 a.encima:hover {
+    font-size: xx-large;
+    color: rgb(255, 0, 0);
+}
+
+div#capa1 a.encima:link {
+    font-size: xx-large;
+    color: rgb(0, 255, 21);
+}
+
+div#capa1 a.encima:visited {
+    font-size: xx-large;
+    color: rgb(38, 0, 255);
+}
+
+p#mipárrafo::first-line {
+    font-weight: bold;
+}
+
+p#mipárrafo::first-letter {
+    font-size: 60px;
+    color: brown;
+    font-family: monospace;
+}
+
+ul#capafinal li:first-child {
+    background: darkgoldenrod;
+}
+
+ul#capafinal li:last-child {
+    background: darkslateblue;
+}
+
+div#capa1 * {
+    background: rgb(180, 158, 116);
+}
+
+div > a {
+    font-style: italic;
+}
+
+.bordecapa {
+    border: 2px solid black
+}
+
+a[href^="https"] {
+    color:aquamarine;
+    font-weight: bold;
+}
+
+a[href$="pdf"] {
+    text-transform: uppercase;
+}
+
+div + p {
+    font-size: 80px;
+}
+
+a[href*="triana"] {
+    background: rgb(37, 31, 24);
+}
+
+input:focus {
+    border: 3px solid rgb(253, 207, 0);
+}
+
+input:enabled {
+    border: 3px solid rgb(0, 255, 13);
+}
+
+input:disabled {
+    border: 3px solid rgb(255, 0, 0);
+}
+  
+input:checked {
+    border: 3px solid aqua;
+}
+
+a[target=blank] {
+    font-weight: bold;
+}
+
+:not(p) {
+    text-decoration:overline;
+}
+ 
