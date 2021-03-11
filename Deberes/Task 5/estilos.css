@@ -1,0 +1,158 @@
+* {
+    padding: 0px;    
+}
+#container {
+    border: 2px solid black;
+    font-family: verdana, sans-serif;
+    height: 1080px;
+    width: 1080px;
+    background: lightyellow;
+    
+}
+
+body {
+    background: rgb(155, 154, 154);
+}
+
+header, section, footer, aside, nav, article {
+    display: block;
+}
+
+#head {
+    background: rgb(147, 196, 147);
+    height: 140px;   
+}
+
+#cara {
+    
+    float: left;
+    padding: 30px;
+}
+
+#web {
+    float: left;
+    color:rgb(96, 143, 102));
+}
+
+#web h1 {
+    color: darkred;
+}
+
+#menu {
+    clear: both;
+    background: rgb(191, 252, 249);
+    border: 1px solid grey;
+    
+    
+    
+}
+
+#menu li {
+    
+    display: inline-block;
+    border-right: 1px solid rgb(154, 181, 231);
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 3px;
+}
+
+#principal {
+    float: left;
+    width: 710px;
+    margin: 20px;
+    background-color: rgb(245, 189, 167);
+    
+}
+#logoHTML {
+    background: rgb(223, 223, 223);
+}
+#header {
+    background-color: rgb(255, 181, 152);
+    position: relative;
+    top: -16px;
+    
+
+}
+#header li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 5px;
+    font-size: 14px;
+    padding-bottom: 3px;
+    color:  grey;
+}
+#titulo {
+    color: grey;
+    font-size: 20px;
+}
+#espacio {
+    height: 300px;
+    background: rgb(165, 108, 86);
+    border-radius: 10px;
+}
+#texto {
+    color: rgb(201, 156, 139);
+    font-size: 14px;
+}
+
+#pie {
+    background-color:  rgb(255, 178, 147);
+    color: rgba(0, 0, 0, 0.611);
+    font-size: 14px;
+}
+#pie span {
+    color: rgb(16, 133, 172);
+}
+#derecha {
+    float: left;
+    width: 270px;
+    margin: 20px ;
+    border: 1px solid black;
+    background: white;
+    
+}
+#follow {
+    padding: 0px;
+    background: rgb(134, 168, 163);
+}
+#logo {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 3px;
+    background: white;
+}
+#Curso {
+    border: 1px solid black;
+    background: rgb(134, 168, 163);
+    
+}
+#espaciado1 {
+    height: 20px;
+    background: white;
+    border-bottom: 1px solid black;
+
+}
+#espaciado {
+    height: 20px;
+    background: white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#content {
+    border: 1px solid black;
+    background: rgb(134, 168, 163)
+    ;
+}
+#espaciado2 {
+    height: 20px;
+    background: white;
+    border-top: 1px solid black;
+
+}
+#categorias {
+    padding-left: 30px;
+    background: white;
+}
+

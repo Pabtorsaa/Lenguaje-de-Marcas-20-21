@@ -1,0 +1,28 @@
+.contenedor {
+    display: flex;
+    /*flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: center;
+
+    height: 240px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    background: darkblue;*/
+}
+
+/*.elemento {
+    width: 20%;
+    background: rgb(131, 255, 245);
+    border: 1px solid rgb(140, 0, 255);
+    /*height: 40px;
+    font-weight: bold;
+} */
+
+ /*impares*/ .elemento:nth-child(even) {
+     order: 1;
+     
+
+}
