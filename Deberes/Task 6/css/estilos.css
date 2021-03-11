@@ -1,0 +1,94 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    padding: 20px;
+    color: black;
+    background: rgb(190, 188, 188);
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+}
+#mar {
+    color: rgb(71, 5, 71);
+}
+section {
+    display: flex;
+}
+
+article {
+    padding:  10px;
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+    border: 1px solid grey);
+}
+
+#articulo-1 {
+    background: rgb(123, 176, 194);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#siempre {
+    font-style: italic;
+    font-size: 13px;
+    
+}
+
+#articulo-2 {
+    background: rgb(148, 142, 59);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#articulo-3 {
+    background: rgb(233, 116, 103);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#articulo-4 {
+    background: rgb(161, 159, 159);
+    width: 95%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#articulo-5 {
+    background: rgb(219, 219, 219);
+    width: 95%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+img {
+    width: 25%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+p {
+    text-align: justify;
+}
+h3 {
+    text-align: right;
+    font-style: italic;
+    font-size: 25px;
+    color: midnightblue;
+    margin-right: 15px;
+}
+iframe {
+    width: 200px;
+    height: 200px;
+}
+

@@ -2,7 +2,7 @@
     padding: 0px;    
 }
 #container {
-    border: 3px solid black;
+    border: 2px solid black;
     font-family: verdana, sans-serif;
     height: 1080px;
     width: 1080px;
@@ -11,7 +11,7 @@
 }
 
 body {
-    background: grey;
+    background: rgb(155, 154, 154);
 }
 
 header, section, footer, aside, nav, article {
@@ -19,7 +19,7 @@ header, section, footer, aside, nav, article {
 }
 
 #head {
-    background: rgb(185, 238, 185);
+    background: rgb(147, 196, 147);
     height: 140px;   
 }
 
@@ -31,7 +31,7 @@ header, section, footer, aside, nav, article {
 
 #web {
     float: left;
-    color:rgb(96, 143, 102));
+    color:rgb(96, 143, 102);
 }
 
 #web h1 {
@@ -40,17 +40,14 @@ header, section, footer, aside, nav, article {
 
 #menu {
     clear: both;
-    background: rgb(124, 163, 236);
+    background-color: rgb(146, 241, 237);
     border: 1px solid grey;
-    
-    
-    
 }
 
 #menu li {
     
     display: inline-block;
-    border-right: 1px solid rgb(65, 103, 173);
+    border-right: 1px solid rgba(154, 181, 231, 0.534);
     list-style: none;
     padding-right: 10px;
     padding-left: 3px;
@@ -87,11 +84,11 @@ header, section, footer, aside, nav, article {
 }
 #espacio {
     height: 300px;
-    background: rgb(197, 123, 94);
+    background: rgb(165, 108, 86);
     border-radius: 10px;
 }
 #texto {
-    color: rgb(148, 96, 75);
+    color: rgb(201, 156, 139);
     font-size: 14px;
 }
 
@@ -108,50 +105,50 @@ header, section, footer, aside, nav, article {
     width: 270px;
     margin: 20px ;
     border: 1px solid black;
-    background: rgb(223, 223, 223);
+    background: white;
     
 }
 #follow {
     padding: 0px;
-    background: rgb(165, 165, 165);
+    background: rgb(134, 168, 163);
 }
 #logo {
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
     padding: 3px;
-    background: rgb(223, 223, 223);
+    background: white;
 }
 #Curso {
     border: 1px solid black;
-    background: rgb(165, 165, 165);
+    background: rgb(134, 168, 163);
     
 }
 #espaciado1 {
     height: 20px;
-    background: rgb(223, 223, 223);
+    background: white;
     border-bottom: 1px solid black;
 
 }
 #espaciado {
     height: 20px;
-    background: rgb(223, 223, 223);
+    background: white;
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
 #content {
     border: 1px solid black;
-    background: rgb(165, 165, 165);
+    background: rgb(134, 168, 163)
+    ;
 }
 #espaciado2 {
     height: 20px;
-    background: rgb(223, 223, 223);
+    background: white;
     border-top: 1px solid black;
 
 }
 #categorias {
     padding-left: 30px;
-    background: rgb(223, 223, 223);
+    background: white;
 }
-© 2021 GitHub, Inc.
