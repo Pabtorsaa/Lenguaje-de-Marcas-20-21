@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 05</title>
+    <script type="text/javascript" src="funciones.js"></script>
+    <link rel="stylesheet" href="estilos.css"></link>
+</head>
+<body>
+    <table>
+        <caption>Tablas de Multiplicar</caption>
+        <tr>
+            <td><label for="numero">Número:</label></td>
+            <td><input type="number" name="numero" id="numero" autofocus></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" value="Mostrar Tablas" onclick="mostrarTablas(document.getElementById('numero').value)"></td>
+        </tr>
+    </table>
+    <div>
+        <span id="resultadoTabla"></span>
+    <div id="container">
+        <table>
+            <caption>Tablas de Multiplicar</caption>
+            <tr>
+                <td><label for="numero">Número:</label></td>
+                <td><input type="number" name="numero" id="numero" autofocus></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Mostrar Tablas" onclick="mostrarTablas(document.getElementById('numero').value)"></td>
+            </tr>
+        </table>
+        <div>
+            <span id="resultadoTabla"></span>
+        </div>
+
+        <table>
+            <caption>Número Primo</caption>
+            <tr>
+                <td><label for="numP">Número Primo:</label></td>
+                <td><input type="number" name="numP" id="numP"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Comprobar Primo" onclick="comprobarPrimo()"></td>
+            </tr>
+        </table>
+        <div id="resultadoPrimo">
+        </div>
+
+        <table>
+            <caption>Color de Fondo</caption>
+            <tr>
+                <td>ROJO</td>
+                <td>VERDE</td>
+                <td>AZUL</td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="rojo" id="rojo" onchange="cambiarFondo()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="A">10</option>
+                        <option value="B">11</option>
+                        <option value="C">12</option>
+                        <option value="D">13</option>
+                        <option value="E">14</option>
+                        <option value="F">15</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="verde" id="verde" onchange="cambiarFondo()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="A">10</option>
+                        <option value="B">11</option>
+                        <option value="C">12</option>
+                        <option value="D">13</option>
+                        <option value="E">14</option>
+                        <option value="F">15</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="azul" id="azul" onchange="cambiarFondo()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="A">10</option>
+                        <option value="B">11</option>
+                        <option value="C">12</option>
+                        <option value="D">13</option>
+                        <option value="E">14</option>
+                        <option value="F">15</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

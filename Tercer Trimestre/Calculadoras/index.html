@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JS</title>
+
+    <script type="text/javascript" src="funciones.js"></script>
+</head>
+<body>
+    <div style="float: left;width: 50%;">
+        <table>
+            <caption>CALCULADORA 1</caption>
+            <tr>
+                <td>
+                    <label for="num1">Nº 1</label>
+                </td>
+                <td>
+                    <input type="number" name="num1" id="num1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="num2">Nº 2</label>
+                </td>
+                <td>
+                    <input type="number" name="num2" id="num2">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" value="+" onclick="calculadora('suma', document.getElementById('num1').value, document.getElementById('num2').value)">
+                    <input type="button" value="-" onclick="calculadora('resta')">
+                    <input type="button" value="*" onclick="calculadora('mult')">
+                    <input type="button" value="/" onclick="calculadora('divi')">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="text" name="resultado" id="resultado" readonly>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div style="float: left;width: 50%;">
+        <table>
+            <caption>CALCULADORA 2</caption>
+            <tr>
+                <td></td>
+                <td>
+                    <textarea name="pantalla" id="pantalla" cols="30" readonly></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="num1">Nº 1</label>
+                </td>
+                <td>
+                    <input type="number" name="num11" id="num11" onkeyup="mostrarN1(this)" autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" value="+" onclick="escribir('+')">
+                    <input type="button" value="-" onclick="escribir('-')">
+                    <input type="button" value="*" onclick="escribir('*')">
+                    <input type="button" value="/" onclick="escribir('/')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="num2">Nº 2</label>
+                </td>
+                <td>
+                    <input type="number" name="num22" id="num22" onkeyup="mostrarN2(this)">
+                </td>
+            </tr>            
+            <tr>   
+                <td></td>             
+                <td>
+                    <input type="button" value="=" style="width: 240px;" onclick="calcular()">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

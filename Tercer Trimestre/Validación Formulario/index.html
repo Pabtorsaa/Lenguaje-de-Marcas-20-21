@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación Formularios</title>
+
+    <script src="main.js"></script>
+
+</head>
+<body>
+    <h1>FORMULARIO</h1>    
+    <div style="width: 50%;float: left;">
+        <form action="" method="GET" name="nombreFormulario" onsubmit="return validarFormulario()">
+            <table>
+                <tr>
+                    <td><label for="nombre">Nombre</label></td>
+                    <td><input type="text" name="nombre" 
+                        id="nombre" placeholder="Nombre" autofocus onblur="validar(this)"></td>
+                    <td><span id="spnombre" style="color: red;"></span></td>
+                </tr>
+                <tr>
+                    <td><label for="postal">Cod. Postal</label></td>
+                    <td><input type="text" name="postal" id="postal"></td>
+                </tr>            
+                <tr>
+                    <td><label for="edad">Edad</label></td>
+                    <td><input type="range" name="edad" id="edad" onchange="mostrarEdad(this)"></td>
+                    <td><span id="spedad"></span></td>
+                </tr>
+                <tr>
+                    <td><label for="telefono">Teléfono</label></td>
+                    <td><input type="tel" name="telefono" id="telefono"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="capaerrores" style="width: 50%;float: left;color: red;visibility: hidden;">
+        <h3>Errores</h3>
+        <span id="errores"></span>
+    </div>
+</body>
+</html>

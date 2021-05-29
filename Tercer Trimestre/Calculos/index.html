@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS03</title>
+    <script type="text/javascript" src="funciones.js"></script>
+</head>
+<body>
+    <p>Solicita nombre y edad (en años) y muestra el resultado de
+        los días que ha vivido suponiendo años de 365 días       
+    </p>
+    <table>
+        <tr>
+            <td><label for="nombre">Nombre</label></td>
+            <td><input type="text" name="nombre" id="nombre"></td>
+        </tr>
+        <tr>
+            <td><label for="edad">Edad</label></td>
+            <td><input type="number" name="edad" id="edad"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="button" value="Calcular" id="calcular">Calcular</td>
+        </tr>
+    </table>
+    <div>
+        <span id="resultado"></span>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("calcular").addEventListener("click",calcularEdad);
+    </script>
+    <p>Pedir 2 números al usuario e indicar cual es el mayor de los 2</p>
+    <table>
+        <tr>
+            <td><label for="num1">Número 1</label></td>
+            <td><input type="number" name="num1" id="num1"></td>
+        </tr>
+        <tr>
+            <td><label for="num2">Número 2</label></td>
+            <td><input type="number" name="num2" id="num2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="button" value="Calcular" onclick="calcularMayor()"></td>
+        </tr>
+    </table>
+    <div>
+        <span id="resultadoMayor"></span>
+    </div>
+    <p>Pedir frase al usuario y un número. Repetir en pantalla la frase
+        tantas veces como indique el número
+    </p>
+    <table>
+        <tr>
+            <td><label for="frase">Frase</label></td>
+            <td><input type="text" name="frase" id="frase"></td>
+        </tr>
+        <tr>
+            <td><label for="num">Número</label></td>
+            <td><input type="number" name="num" id="num"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="button" value="Mostrar" onclick="mostrarFrase()"></td>
+        </tr>
+    </table>
+    <div>
+        <span id="resultadoFrase"></span>
+    </div>
+
+    <table>
+        <tr>
+            <td><label for="base">Base</label></td>
+            <td><input type="number" name="base" id="base"></td>
+        </tr>
+        <tr>
+            <td><label for="exponente">Exponente</label></td>
+            <td><input type="number" name="exponente" id="exponente"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Calcular" onclick="calcularPotencia()"></td>
+        </tr>
+    </table>
+    <div>
+        <span id="potencia"></span>
+    </div>
+
+    <table>
+        <tr>
+            <td><label for="peso">Peso (kg)</label></td>
+            <td><input type="number" name="peso" id="peso"></td>
+        </tr>
+        <tr>
+            <td><label for="altura">Altura (m)</label></td>
+            <td><input type="number" name="altura" id="altura"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Calcular IMC" onclick="calcularIMC()"></td>
+        </tr>
+    </table>
+    <div>
+        <span id="resultadoIMC"></span>
+    </div>
+
+    <table>
+        <tr>
+            <td><label for="numero">Número</label></td>
+            <td><input type="number" name="numero" id="numero"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Comprobar" onclick="comprobar()"></td>
+        </tr>
+    </table>
+    <div>
+        <span id="resultadoAleatorio"></span>
+    </div>
+</body>
+</html>  
